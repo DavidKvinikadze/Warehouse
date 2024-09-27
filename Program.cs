@@ -18,23 +18,3 @@ foreach (var category in result)
         Console.WriteLine($"\t{car.Id} - {car.Brand} - {car.Model}");
     }
 }
-
-//for (int i = 0; i < 10; i++)
-//{
-//    var categoryName = $"Category {i}";
-//    Category category = new() { Name = categoryName, Cars = new List<Car>() };
-//    for (int j = 0; j < 10; j++)
-//    {
-//        category.Cars.Add(new()
-//        {
-//            Brand = $"Brand {j} for {categoryName}",
-//            Model = $"Model {j} for {categoryName}",
-//            Color = 123,
-//            PlateNumber = "123",
-//            RentFee = 99
-//        });
-//    }
-//    context.Categories.Add(category);
-//}
-
-//context.SaveChanges();
